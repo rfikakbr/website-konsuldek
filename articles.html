@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel Kesehatan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #00509E;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        /* Navbar */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003366;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid #ccc;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #FFD700;
+            color: #003366;
+        }
+
+        /* Main Content */
+        .main-content {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .article {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: justify;
+        }
+
+        .article img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .article h2 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .article p {
+            margin: 10px 0;
+        }
+
+        .article a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #00509E;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .article a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Artikel Kesehatan</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">Tentang Kami</a>
+    <a href="doctors.html">Dokter</a>
+    <a href="consultation.html">Daftar Konsultasi</a>
+    <a href="articles.html">Artikel</a>
+    <a href="contact.html">Hubungi Kami</a>
+</nav>
+
+<div class="main-content">
+    <div class="article">
+        <img src="https://via.placeholder.com/300x200" alt="Kesehatan Jantung">
+        <h2><a href="https://www.mitrakeluarga.com/artikel/makanan-sehat-untuk-jantung" target="_blank">Panduan Makan Sehat untuk Jantung</a></h2>
+        <p>Makanan yang Anda konsumsi memainkan peran penting dalam kesehatan jantung Anda. Pelajari tentang pilihan makanan yang dapat membantu menjaga jantung Anda tetap sehat.</p>
+    </div>
+
+    <div class="article">
+        <img src="https://via.placeholder.com/300x200" alt="Manfaat Olahraga">
+        <h2><a href="https://hellosehat.com/mental/manfaat-olahraga-kesehatan-mental/" target="_blank">Manfaat Olahraga untuk Kesehatan Mental</a></h2>
+        <p>Olahraga tidak hanya baik untuk fisik, tetapi juga dapat meningkatkan kesehatan mental. Temukan bagaimana aktivitas fisik dapat membantu mengurangi stres dan kecemasan.</p>
+    </div>
+
+    <div class="article">
+        <img src="https://via.placeholder.com/300x200" alt="Nutrisi Anak">
+        <h2><a href="https://www.unicef.org/indonesia/id/nutrisi/cerita/membangun-kebiasaan-makan-yang-sehat-pada-anak" target="_blank">Nutrisi untuk Anak-Anak</a></h2>
+        <p>Memberikan nutrisi yang tepat untuk anak-anak sangat penting untuk pertumbuhan dan perkembangan mereka. Baca lebih lanjut tentang kebutuhan nutrisi anak-anak.</p>
+    </div>
+
+    <div class="article">
+        <img src="https://via.placeholder.com/300x200" alt="Kesehatan Mental">
+        <h2><a href="https://rri.co.id/kesehatan/928576/cara-menjaga-kesehatan-mental-di-masa-sulit" target="_blank">Menjaga Kesehatan Mental di Masa Sulit</a></h2>
+        <p>Kesehatan mental sama pentingnya dengan kesehatan fisik. Ketahui cara-cara untuk menjaga kesehatan mental Anda dan mendapatkan dukungan yang diperlukan.</p>
+    </div>
+
+    <div class="article">
+        <img src="https://via.placeholder.com/300x200" alt="Tidur Berkualitas">
+        <h2><a href="https://www.halodoc.com/artikel/cara-sederhana-meningkatkan-kualitas-tidur-yang-baik/" target="_blank">Tips untuk Tidur yang Lebih Baik</a></h2>
+        <p>Tidur yang berkualitas sangat penting untuk kesehatan secara keseluruhan. Temukan tips dan trik untuk meningkatkan kualitas tidur Anda.</p>
+    </div>
+
+    <div class="article">
+        <img src="https://via.placeholder.com/300x200" alt="Mengelola Stres">
+        <h2><a href="https://prodiadigital.com/id/artikel/6-cara-mengelola-stres-dengan-baik-dan-mudah" target="_blank">Mengelola Stres dengan Efektif</a></h2>
+        <p>Stres dapat memengaruhi kesehatan Anda secara keseluruhan. Pelajari teknik dan strategi untuk mengelola stres dengan lebih baik.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Sistem Informasi Kesehatan</p>
+    <div class="footer-content">
+        <p>&copy; Konsuldek. All rights reserved.</p>
+        <div class="contact-info">
+            <p>Telepon: (021) 1234 5678</p>
+            <p>Email: info@konsuldek.com</p>
+            <p>Alamat: Perum Korpri Blok A5 No. 24</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
