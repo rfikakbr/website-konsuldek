@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hubungi Kami</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Link Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
         body {
             font-family: 'Open Sans', sans-serif;
@@ -47,6 +48,12 @@
             padding: 10px 15px;
             border-radius: 5px;
             transition: background-color 0.3s;
+            display: flex;
+            align-items: center;
+        }
+
+        nav a i {
+            margin-right: 8px;
         }
 
         nav a:hover {
@@ -104,6 +111,19 @@
             text-align: center;
             padding: 20px 0;
         }
+
+        .footer-content {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
@@ -113,12 +133,12 @@
 </header>
 
 <nav>
-    <a href="index.html">Beranda</a>
-    <a href="about.html">Tentang Kami</a>
-    <a href="doctors.html">Dokter</a>
-    <a href="consultation.html">Pendaftaran Konsultasi</a>
-    <a href="articles.html">Artikel</a>
-    <a href="contact.html">Hubungi Kami</a>
+    <a href="index.html"><i class="fas fa-home"></i>Beranda</a>
+    <a href="about.html"><i class="fas fa-info-circle"></i>Tentang Kami</a>
+    <a href="doctors.html"><i class="fas fa-user-md"></i>Dokter</a>
+    <a href="consultation.html"><i class="fas fa-file-signature"></i>Pendaftaran Konsultasi</a>
+    <a href="articles.html"><i class="fas fa-newspaper"></i>Artikel</a>
+    <a href="contact.html"><i class="fas fa-phone"></i>Hubungi Kami</a>
 </nav>
 
 <div class="form-container">

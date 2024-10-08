@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentang Kami</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f9;
@@ -46,7 +47,13 @@
             margin: 0 20px;
             padding: 10px 15px;
             border-radius: 5px;
+            display: flex;
+            align-items: center;
             transition: background-color 0.3s;
+        }
+
+        nav a i {
+            margin-right: 8px; /* Spasi antara ikon dan teks */
         }
 
         nav a:hover {
@@ -97,12 +104,12 @@
 </header>
 
 <nav>
-    <a href="index.html">Beranda</a>
-    <a href="about.html">Tentang Kami</a>
-    <a href="doctors.html">Dokter</a>
-    <a href="consultation.html">Pendaftaran Konsultasi</a>
-    <a href="articles.html">Artikel</a> <!-- Link Artikel ditambahkan di sini -->
-    <a href="contact.html">Hubungi Kami</a>
+    <a href="index.html"><i class="fas fa-home"></i> Beranda</a>
+    <a href="about.html"><i class="fas fa-info-circle"></i> Tentang Kami</a>
+    <a href="doctors.html"><i class="fas fa-user-md"></i> Dokter</a>
+    <a href="consultation.html"><i class="fas fa-book"></i> Pendaftaran Konsultasi</a>
+    <a href="articles.html"><i class="fas fa-book"></i> Artikel</a>
+    <a href="contact.html"><i class="fas fa-phone"></i> Hubungi Kami</a>
 </nav>
 
 <div class="main-content">
